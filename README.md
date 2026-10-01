@@ -7,10 +7,9 @@
 
 Depression is one of the most underdiagnosed mental health conditions globally. This project builds an **explainable, context-aware ML framework** that:
 
-- Screens individuals for depression risk using **PHQ-9 validated questionnaire data**
+- Screens University Students in Bangladesh for depression risk using **PHQ-9 validated questionnaire data**
 - Incorporates **contextual factors** (financial stress, social events, lifestyle) beyond clinical scores
 - Provides **transparent, human-interpretable predictions** using explainability techniques (SHAP, LIME)
-- Flags **safety-critical cases** (suicidal ideation — A9) for clinical escalation
 
 ---
 
@@ -57,7 +56,6 @@ Google Sheets Data
 
 - All data is collected with **explicit participant consent**
 - Raw data is **excluded from version control** via `.gitignore`
-- Safety-critical responses (`CRITICAL_REVIEW`) are flagged separately for human review
 - No personally identifiable information (PII) is stored beyond anonymous submission IDs
 
 ---
